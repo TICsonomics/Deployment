@@ -184,5 +184,5 @@ Once the system is in production, it must be ensured that it remains up-to-date 
 
 # References
 ---
-
+Thanks for visiting our GitHub organization profile! If you're interested in learning more about our project, don't hesitate to check out our whitepaper, repositories and code files. If you have any questions or suggestions, please feel free to contact us! 👋🧙
 
