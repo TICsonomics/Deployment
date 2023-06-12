@@ -113,7 +113,7 @@ def main():
       if tempo ==1:
         #asset = "bitcoin"  
         #query = f"SELECT * FROM half_hours WHERE coin_id = '{asset}' ORDER BY date_price DESC LIMIT 90"# WHERE date_price >= '{start_date}'"# AND date_price <= '{close_price_date}'"
-        query = f"SELECT *  FROM half_hour;" #ORDER BY date_price DESC LIMIT 90"
+        query = f"SELECT * FROM half_hour;" #ORDER BY date_price DESC LIMIT 90"
         temporalidad="30 minutos"
       elif tempo ==2:
         temporalidad="4 horas"
@@ -127,9 +127,9 @@ def main():
         #query = f"SELECT * FROM four_days WHERE coin_id = '{asset}' ORDER BY date_price DESC LIMIT 90"# WHERE date_price >= '{start_date}'"# AND date_price <= '{close_price_date}'"
 
       db_conection = create_engine('postgresql://%(user)s:%(password)s@%(host)s:%(port)s/%(dbname)s' % db_params) 
-      print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaa")
+      #print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaa")
       hist = pd.read_sql_query(query,db_conection)
-      print("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
+      #print("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
       #print(type(hist))
       #hist.to_csv('h.csv', index=False)
       hist.drop(hist.columns[0], axis=1, inplace=True)
