@@ -1,0 +1,5 @@
+mplfinance==0.12.9b7
+pandas==1.5.3
+psycopg2_binary==2.9.6
+SQLAlchemy==1.4.39
+stockstats==0.5.2

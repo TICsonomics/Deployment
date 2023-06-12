@@ -1,0 +1,10 @@
+Ejecuta el siguiente comando para abrir el archivo crontab para edición:
+
+->   crontab -e
+
+-Agrega la siguiente línea al final del archivo crontab:
+
+
+*/30 * * * * /home/sistemas/projects/ticsonomics/Deployment/deployer.sh
+
+
