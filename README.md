@@ -47,7 +47,6 @@ Welcome to our project on analyzing cryptocurrency data for trading purposes! In
 
 The world of cryptocurrency is highly volatile, with prices fluctuating wildly within a matter of hours. To be successful in this space, traders must have a deep understanding of the behavior of each cryptocurrency they are trading. This is where data analysis comes in - by analyzing large amounts of historical data, we can identify patterns and trends that may not be visible through simple observation.
 
-We have chosen to focus on several key indices, including: IRS, Pivot Point, Fibonacci retracement, EMA, and stochastic oscillator, as these indices have proven to be effective in predicting market trends and making informed trading decisions. By calculating these indices for various cryptocurrencies, we can identify potential entry and exit points for trades, and make more profitable trading decisions.
 
 In this project, we created a system that processes historical data  of the behavior of the XRP cryptocurrency price and then sends it to our website. The project is divided into 5 phases, each with its own objectives and challenges.
 
