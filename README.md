@@ -1,37 +1,22 @@
 # Hi, we're Ticsonomics 👋
 ---
-🧙 Welcome to our GitHub org
+🧙 Welcome to our GitHub
+---
 
 Final project for the Distributed Computing subject, at ENES' Morelia B. Sc. Program "Tecnologías para la Información en Ciencias" (https://www.enesmorelia.unam.mx/)
 
+Welcome to our  crypto-trading AI Platform! In this project, we aim to process historical data of cryptocurrencies to identify patterns and trends within their behavior, to understand their behavior in the market, identify trends and make informed decisions in the field of investment. Through the analysis of prices and other relevant indicators, such as KDJK, MACD, PPSR, and MACD, offer useful insights for investors, and allow them to use this information to make informed trading decisions.
 
 ____
-## Table of Contents 
-* [Team_Members](#Team_Members)
-* [License](#License)
-* [Project Overview](#Project_Overview)
-* [Introduction](#Introduction)
-* [Justification](#Justification)
-* [Goals](#Goals)
-* [Objectives of Each Phase](#Objectives_of_each_Phase)
-* [Metodology](#Metodology)
-* [Libreries](#Libreries)
-* [Packages](#Packages)
-* [Deployment](#Deployment)
-* [Conclusions](#Conclusions)
-* [Executing_Software_Intructions](#Executing_Software_Intructions)
-* [References](#References)
+# Team_Members :family:
 
-____
-# Team_Members
-
-* José Ignacio Ireta. ([ignacio-ireta](https://github.com/ignacio-ireta))
-* Lucrecia Beltz. . ([LucreciaBeltz](https://github.com/LucreciaBeltz))
+* José Ignacio Esparza Ireta. ([ignacio-ireta](https://github.com/ignacio-ireta))
+* María Lucrecia Beltz González ([LucreciaBeltz](https://github.com/LucreciaBeltz))
 * Miguel Ángel Zamorano Presa. ([miguelzpresa](https://github.com/miguelzpresa))
 
 ____
-# License
-Copyright © 2023 <mikezpresa@gmail.com,>
+# License :space_invader:
+Copyright © 2023 <mikezpresa@gmail.com,ignacio.ireta@outlook.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -40,56 +25,72 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ____
-# Project_Overview 
+# Introduction :microscope:
 
-Welcome to our project on analyzing cryptocurrency data for trading purposes! In this project, we aim to process historical data of cryptocurrencies to identify patterns and trends within their behavior, and use this information to make informed trading decisions.
+
 
 The world of cryptocurrency is highly volatile, with prices fluctuating wildly within a matter of hours. To be successful in this space, traders must have a deep understanding of the behavior of each cryptocurrency they are trading. This is where data analysis comes in - by analyzing large amounts of historical data, we can identify patterns and trends that may not be visible through simple observation.
 
+We have chosen to focus on several key indices, including: RSI_14, MACD, Stochastic Oscillator & PPSR(ivot Points, Supports, and Resistances )as these indices have proven to be effective in predicting market trends and making informed trading decisions. By calculating these indices for our univariate crypto system, we can identify potential entry and exit points for trades, and make more profitable trading decisions.
 
+The TICSonomics project will focus on the analysis of the XRP cryptocurrency  using the information provided by the Coingecko API. The main objective is to create an a system  that processes and stores this data to make decisions based on Technical Analysis and, finally, deploy the service in a web app accessible to users. 
 In this project, we created a system that processes historical data  of the behavior of the XRP cryptocurrency price and then sends it to our website. The project is divided into 5 phases, each with its own objectives and challenges.
 
 
 
-
-
-# Introduction
----
-Cryptocurrencies have experienced rapid growth and adoption since the creation of Bitcoin in 2009 by Satoshi Nakamoto. This innovative digital money system emerged as a decentralized alternative to the traditional financial system, offering fast, secure and low-cost transactions. Over the years, the cryptocurrency ecosystem has evolved, giving rise to thousands of digital coins and tokens, with XRP being one of the best-known cryptocurrencies with the highest market capitalization.   
-In the current context of 2023, the importance of studying cryptocurrencies has become even more relevant, due to recent events in the traditional financial system. Just a week ago, two big banks, Silvergate and Silicon Valley Bank, went out of business, and Credit Suisse is facing serious financial problems. These events have generated uncertainty in the financial sphere and have led to an increase in interest in cryptocurrencies as a more solid and decentralized alternative.  
-The study of cryptocurrencies allows us to understand their behavior in the market, identify trends and make informed decisions in the field of investment. Through the analysis of prices and other relevant indicators, such as RSI, MACD, volume, Parabolic Sar and Bollinger bands, machine learning models can be generated to predict the future behavior of cryptocurrencies and offer useful recommendations for investors.  
-The TICSonomics project will focus on the analysis of the XRP cryptocurrency from August 2013 to date, using the information provided by the Coingecko API. The main objective is to create an artificial intelligence model that processes and stores this data to make decisions based on machine learning techniques and, finally, deploy the model in a web app accessible to users.  
-The specific tools for the development and deployment of the project will be left to the discretion of the development team, allowing flexibility in the selection and adaptation of the technologies used. This approach guarantees that the project can adapt to changes in the technological environment and optimize its performance based on the needs of the market and users.  
-In summary, the importance of studying cryptocurrencies lies in their potential as a decentralized and solid alternative to the traditional financial system, especially in times of economic uncertainty. The TICSonomics project aims to seize this opportunity to develop an artificial intelligence model that facilitates the analysis of the XRP cryptocurrency and supports investors in making informed decisions.
-
-
-# Justification
+# Justification :telescope:
 ---
 The comparison between the TICSonomics project and existing alternatives such as TradingView, TrendSpider, Koyfin, among others, lies mainly in the focus and automation of technical analysis. These existing platforms offer a wide range of tools and charts to perform fundamental and technical analysis of different assets, including cryptocurrencies. However, these tools require users to perform the analysis manually, which can result in a slower and error-prone process due to human subjectivity.  
-The main benefit of a tool like TICSonomics, which automates technical analysis based on indicators and uses artificial intelligence, is the ability to process and analyze large amounts of data, quickly and efficiently. This automation allows users to focus on making informed decisions instead of spending time and effort manually analyzing data.  
-In addition, the incorporation of artificial intelligence in the TICSonomics project provides a competitive advantage over current alternatives. By using machine learning techniques to analyze data and predict the future behavior of cryptocurrencies, TICSonomics can offer more accurate and timely recommendations, improving investment performance.  
-Another benefit of TICSonomics is the possibility of customizing and adapting the artificial intelligence model to the specific needs of each user. As the model learns and adapts over time, its accuracy and relevance can improve, offering a more personalized and effective approach compared to standard manual tools available on platforms like TradingView or Koyfin.  
-However, it is important to note that manual fundamental and technical analysis tools remain valuable for investors who prefer a more controlled and detailed approach to their investment strategy. TICSonomics does not intend to completely replace these platforms, but to complement them and offer a more automated and AI-based solution for those looking to optimize their cryptocurrency investments.  
-In short, TICSonomics sets itself apart from current alternatives by offering an automated, AI-based solution for cryptocurrency technical analysis. This can result in faster and more accurate decision making, as well as a more personalized and adaptable approach for investors compared to the manual tools offered by platforms such as TradingView, TrendSpider, and Koyfin.
+TICSonomics sets itself apart from current alternatives by offering an automated, AI-based solution for cryptocurrency technical analysis. This can result in faster and more accurate decision making, as well as a more personalized and adaptable approach for investors compared to the manual tools offered by platforms such as TradingView, TrendSpider, and Koyfin.
 
-#### Goals
+# "Cryptocurrency Analysis: Mini Historical Overview and Essential Concepts":chart_with_upwards_trend:
 ---
-Facilitate and accelerate the decision making of minority investors in the cryptocurrency market, especially in volatile environments and subject to market manipulation.
+### what are cryptocurrencies?  
 
-Develop and apply an artificial intelligence model that allows analyzing technical and fundamental indicators in real time, providing valuable and updated information to support decision-making in cryptocurrency investments.
+A crypto a digital currency that uses cryptography to secure and verify transactions and to control the creation of new units. Cryptocurrencies are based on a technology called blockchain, which is a distributed and decentralized database that securely records all transactions.
+Cryptocurrencies  offer several advantages over traditional fiat currencies. Firstly, cryptocurrencies allow for secure and fast transactions with low transaction fees. Unlike traditional fiat currencies, cryptocurrencies are not controlled by any government or central authority, which means that transactions can be processed faster and more securely, and are not subject to inflation or manipulation by central banks.
+Cryptocurrencies matter because they offer a secure, fast, and efficient way to transact and transfer value globally, as well as a potential investment opportunity.
 
-Leveling the playing field for minority investors by providing them with access to advanced analysis and forecasting tools that were previously reserved for institutional investors with greater computational, financial and human resources.
+### Who and how is determined the value of any crypto?  
 
-Create an easy-to-use and accessible platform that allows users, regardless of their level of experience, to take full advantage of artificial intelligence and machine learning in cryptocurrency analysis.
+Like any other financial asset, the price of a cryptocurrency fluctuates based on the supply and demand of investors who buy and sell the currency on exchange markets.  
 
-Promote transparency and fairness in the cryptocurrency market, countering market manipulation techniques and giving minority investors a greater ability to anticipate and respond to changes in the correlations between assets and market events.
+One key factor that influences the value of a cryptocurrency is its market capitalization (market cap). The market cap of a cryptocurrency is calculated by multiplying the current price of the cryptocurrency by the total number of coins in circulation. This metric provides an estimate of the relative size of the cryptocurrency in the market. Generally, the higher the market capitalization of a cryptocurrency, the higher its price, although this is not always the case.  
 
-Customize and adapt the artificial intelligence model to the specific needs of each user, continuously improving its accuracy and relevance based on the preferences and investment objectives of the users.
+In addition to market capitalization, other factors that can influence the value of a cryptocurrency include:  
 
-Integrate and complement existing technical and fundamental analysis tools, offering a more complete and efficient solution for investors interested in the cryptocurrency market.
+- The adoption and actual use of the cryptocurrency by businesses and consumers.
+- The strength of the technology and security of the network on which the cryptocurrency is based.
+- News and events related to the cryptocurrency and its underlying technology, such as protocol updates, security breaches, and government regulations.
+- The market's perception of the value and utility of the cryptocurrency relative to other cryptocurrencies and financial assets.  
+
+It is important to note that the value of cryptocurrencies can be extremely volatile due to the speculative nature of the cryptocurrency market. Therefore, investors should conduct their own research and analysis before investing in any cryptocurrency.
+
+## Transactional Cycle overview   :round_pushpin:  
+
+Exchanges usually follow the price of the cryptocurrency on its respective blockchain, as this is the real price of the cryptocurrency.  
+
+In the case of XRP, the price is established on its blockchain, and exchanges that offer XRP rely on that price to determine its value. That is, it is not the exchange that determines the price of the cryptocurrency, but rather follows it through its blockchain.
+Exchanges can set their own fees, but they generally adhere to market standards to avoid losing competitiveness. Regulation regarding exchange fees varies by country, but maximum limits are typically established to protect users from abusive prices."
 
 
-# Objectives_of_each_Phase
+# Arquitecture 
+---
+![Ticsonomics](https://github.com/TICsonomics/.github/assets/49998408/476b4645-7f88-4f7f-97d0-aa672284d929)
+
+
+
+
+
+
+
+---
+
+
+
+
+---
+# Objectives_of_each_Phase :pushpin:
 ---
 ##### Phase 1: Data Acquisition
 Obtain data on the XRP cryptocurrency from CoinGecko api.
@@ -107,85 +108,158 @@ Develop a clear and intuitive data visualization system for users.
 Integrate all the previous phases into a functional and efficient system.
 Conduct exhaustive testing to ensure that the system works correctly in all situations.
 
-# Data_Acquisition_System
+# Data_Acquisition_System :satellite:
 ---
-During the first iterations of the project, free software tools for information acquisition and storage will be considered. Seeking to be able to count from the beginning with the minimum information essential for the project such as the opening price, maximum, minimum, closing and volume of the asset of interest. Currently, various sources of information have already been considered, with historical prices dating back to the inception of the first asset to be analyzed, the Ripple cryptocurrency with XRP ticker, which have public APIs, which, although free, do not seem to provide adequate access to the information. necessary information in its free versions, however our specialists ensure that it is possible to obtain them from various sources or derive them from those already mentioned.
+The provided Python script retrieves market data for a specific cryptocurrency from the CoinGecko API and stores it in a PostgreSQL database. It utilizes the pandas library for data manipulation and storage.  
 
-# Data Storage
+The script consists of the following steps:  
+
+    functions:  
+        fetch_data_from_api(url): Sends a GET request to the API and returns the response as a JSON object.  
+        get_ohcl(coin_id, vs_currency, days): Retrieves OHLC prices for a cryptocurrency within a timeframe and returns them as a pandas DataFrame.  
+        get_volume(coin_id, vs_currency, days): Retrieves trading volume data for a cryptocurrency within a timeframe and returns it as a pandas DataFrame.  
+        convert_timestamp(df): Converts the Unix timestamp in a DataFrame to a readable format.  
+        pull_coin_data(coin_id, vs_currency, days): Retrieves OHLC prices and volume data, merges them, and returns a DataFrame.  
+        get_latest_timestamp(db, table_name): Retrieves the latest timestamp stored in a specified table in the database.  
+        store_data_to_db(df, db, table_name): Stores a DataFrame in the database, appending new data if available.  
+
+    Connecting to the PostgreSQL database.  
+
+    Retrieving data for different timeframes using the pull_coin_data() function.  
+  
+    Storing the data in the database using the store_data_to_db() function.  
+
+The script allows for easy retrieval and storage of cryptocurrency market data from the CoinGecko API into a PostgreSQL database.
 ---
-data lake
-Data warehousing
-Possible tools to use for data storage:
--Apache Hive
--Apache Spark
-In this stage, a division will be made in the database to store all the types of data and the different phases in which they are found.
-The first division of the database will be to store the data provided by the data acquisition system, these data will be the ones that are worked on during the processing stage and the results of this stage will be stored in the second division of the database. of data so that they can be used in the publication stage
-# Processing Data System
+# Data Storage :floppy_disk:
 ---
-In this project, we aim to process historical data of cryptocurrencies to identify patterns and trends within their behavior, and use this information to make informed trading decisions.
+### Dockerized PostgreSQL Database
 
-We have chosen to focus on several key indices, including: IRS, Pivot Point, Fibonacci retracement, EMA, and stochastic oscillator, as these indices have proven to be effective in predicting market trends and making informed trading decisions. By calculating these indices for various cryptocurrencies, we can identify potential entry and exit points for trades, and make more profitable trading decisions.  
+This database system utilizes Docker and PostgreSQL to create a containerized environment for storing and managing data. The purpose of this system is to facilitate the management of cryptocurrency price data.  
 
-##### Methodology:
+The system includes three tables: assets, half_hours, and four_hours, each serving a specific purpose.  
 
-Exploratory Data Analysis (EDA) : We will begin by performing exploratory data analysis of the provided historical data to identify any trends or patterns in the time series data. This will involve visualizing the data, analyzing the distribution of the data, and identifying any outliers or anomalies.
+The assets table stores information about different cryptocurrencies, including their unique identifier (coin_id) and symbol (symbol).  
 
-Statistical Techniques: We plan to use a variety of statistical techniques to analyze the time series data, including time series decomposition, autocorrelation analysis, and statistical modeling. These techniques will help us to identify any trends, seasonal patterns, or other time-dependent relationships within the data.
+The half_hours table records price data for cryptocurrencies at half-hour intervals, including the opening, high, low, closing prices (open, high, low, close) and trading volume (volume).  
 
-Applying Indices: We will apply various indices such as IRS, Fibonacci, EMA, and stochastic oscillator to the time series data at different time frames (e.g., daily, weekly, monthly, etc.). This will help us to identify potential entry and exit points for trades, as well as to identify patterns of trend, consolidation, resistance breakthroughs, and momentum.
+Similarly, the four_hours table captures price data at four-hour intervals, with the same column structure as the half_hours table.  
+
+All tables are created using the CREATE TABLE IF NOT EXISTS statement, ensuring they are only created if they do not already exist in the PostgreSQL database.    
+
+The system leverages Docker to provide a containerized environment, which enhances portability, scalability, and ease of deployment. Docker enables isolation and simplifies the process of setting up the database system, making it more efficient and convenient to manage the PostgreSQL database for storing cryptocurrency price data.
+
+
+
+---  
+# Processing Data System :mailbox_with_mail:
+---
+Our Processing System code represents generates and processes data related to cryptocurrency price indicators.  
+
+Functionalities  :
+ The system consists of various functions:     
+-RSI14(df, n): Calculates the RSI14 of a given DataFrame df using a specified window size n. The function adds the RSI_14 column to the DataFrame.  
+-MACD(df): This function calculates the Moving Average Convergence Divergence (MACD) indicator for a given DataFrame df. Currently, it is commented out and not used in the code.     
+-PPSR(df): Calculates Pivot Points, Supports, and Resistances (PPSR) for a given DataFrame df containing high, low, and close price values. The function adds columns for PP, R1, S1, R2, S2, R3, and S3 to the DataFrame.    
+-graficador2(indi, temporalidad, cols=None): This function generates candlestick charts using the mplfinance library. It takes an indicator name (indi) and a time frame (temporalidad) as inputs. If the indicator is "ppsr," it plots the PPSR values from the DataFrame using the specified color (b). Otherwise, it plots the indicator values from the DataFrame using the corresponding color (b, g, or r). The function returns the generated chart and the modified DataFrame.
+
+main():  
+The main function serves as the entry point for the program. It prompts the user to select a cryptocurrency asset (bitcoin, ethereum, ripple, matic_network, or polkadot) and connects to the PostgreSQL database. It then retrieves price data for different indicators and time frames, such as RSI_14, MACD, Stochastic Indicator (Indi_Stocástico), and PPSR. The function calls graficador2 to generate charts and saves them as PNG images. It also saves the processed DataFrame as a CSV file.  The system provides flexibility for selecting different indicators and time frames for visualization and analysis. It utilizes PostgreSQL as the underlying database for data storage and retrieval.   
+
+Output:  
+The generated charts and processed data files are saved in the images_output and pdfs_output directories, respectively, within the same directory as the script.  Overall, this processor system offers a way to retrieve, process, and visualize cryptocurrency price data using various indicators, facilitating technical analysis and research.
+
+
+
+Applying Indices: We will apply various indices such as IRS_14,MACD ,ppsr, and stochastic oscillator to the time series data at different time frames (e.g., daily, weekly, monthly, etc.). This will help us to identify potential entry and exit points for trades, as well as to identify patterns of trend, consolidation, resistance breakthroughs, and momentum.
 
 Pattern Identification: Once we have applied the indices, we will use them to identify patterns of trend, consolidation, resistance breakthroughs, and momentum within the data. This will involve identifying support and resistance levels, analyzing trends and patterns over time, and identifying potential breakouts or breakdowns in the data.
 
 
-# Web_Platform
+# Web_Platform :european_castle:
+---
+The Web Platform  is designed to provide users with an interactive platform for analyzing historical data on various cryptocurrencies. The web app provides a variety of visualizations and analytical tools that allow users to gain insights into the behavior of different cryptocurrencies over time.
+
+The web app is built on the * [streamlit](https://www.streamlit.io/) framework, which is a Python low-code framework for building web applications. The web app uses a combination of Python, HTML, CSS, and JavaScript to provide users with an interactive and responsive experience.
+
+Features:
+
+- Interactive price charts for various cryptocurrencies
+- Customizable timeframes for analyzing data
+- Price change percentage and volume data visualization
+- Detailed price and volume data table
+- User-friendly interface for easy navigation
+
+# Deployment :calendar:
+---
+The deployment process for the "ticsonomics" project involves the following steps:  
+
+    Change directory to the project's deployment folder.  
+    Execute the Docker Compose file to set up the project's services and containers.  
+    Wait for 60 seconds to ensure proper initialization.  
+    Run a Python script related to the deployment process.  
+    Stage and commit PDF files in the designated output directory using Git.  
+    Push the committed changes to the remote Git repository.  
+    Shut down and remove the services and containers created by Docker Compose.  
+
+This deployment process enables easy access to image and CSV URLs associated with the web application, allowing users to request these resources at any time.
 ---
 
-# Deployment
----
-Creation of container images  
-We start creating  container images for each of the subsystems. It must be ensured that the images are compatible with the deployment environment and meet the system requirements. A version control system like Git can be used to manage code and configurations.
-
-Deployment of containers  
-Once container images have been created, they must be deployed. We will use  Docker Compose for  deployment. It must be ensured that the containers are deployed correctly and running optimally.
-
-System configuration and testing  
-After the containers have been deployed correctly, the system must be configured. This may include configuring databases, web pages, and connections between subsystems. Tests must be performed to ensure that everything is working correctly, and the system is ready to use.
-
-Monitoring and maintenance of the system  
-Once the system is in production, it must be ensured that it remains up-to-date and running optimally. This may include software updates, security patches, and troubleshooting errors. A monitoring system must also be implemented to keep track of any issues that may arise.
-
-
-
-# Libreries
+# Libraries :pencil2:
 ---
 * [Python 3](https://www.python.org/)
 * Linux Ubuntu    64-bit
 * [Github](https://www.github.com)
 * Windows 10      64-bit
 * Jupyter lab     3.2.9
+* git
+* cron
 
-# Packages
+# Packages :triangular_flag_on_post:  
 ---
 * [Pandas version 1.4.1](https://pandas.pydata.org/)
 * [Matplotlib version 3.2.2](https://matplotlib.org/)
 * [Numpy version 1.21.5](https://numpy.org/) 
 * [Docker Compose version v2.18.1](https://www.docker.com)
-* [requests](https://docs.python-requests.org/)
+* [requests ](https://docs.python-requests.org/)
 * [mplfinance==0.12.9b7](https://pypi.org/project/mplfinance/)
 * [psycopg2_binary==2.9.6](https://pypi.org/project/psycopg2-binary/)
 * [SQLAlchemy==1.4.39](https://www.sqlalchemy.org/)
 * [stockstats==0.5.2](https://pypi.org/project/stockstats/)
 * [requests==2.31.0](https://pypi.org/project/requests/)
-# Deployment
----
+* 
 
-# Conclusions
----
 
-# Executing_Software_Intructions
----
 
-# References
 ---
-Thanks for visiting our GitHub organization profile! If you're interested in learning more about our project, don't hesitate to check out our whitepaper, repositories and code files. If you have any questions or suggestions, please feel free to contact us! 👋🧙
+# Executing_Software_Intructions :surfer:
+---
+1. clone the deployment repo
+2. open the cron-instructions.txt file and follow its instructions
+3. execute deployer.sh
 
+---
+# Conclusions: :pencil2:
+The project aimed to develop a data acquisition system for cryptocurrency market data. The main objectives were to fetch data from an CoinGecko API, process it, store it in a database, and provide the ability to request image and CSV URLs associated with the data.  
+
+Throughout the project, several key components and technologies were utilized. These included the API client, database management, deployment scripts, Docker, Python, Pandas, Matplotlib, Numpy, Git, and Cron.  
+
+The data acquisition process involved making API requests to fetch OHLC prices and volume data for cryptocurrencies. Python and Pandas were used to process the data, converting timestamps, removing duplicates, and storing it in a PostgreSQL database.  
+
+The processing  syste fetches cryptocurrency market data, performs data processing and analysis, and generates visualizations in the form of candlestick charts with technical indicators. The generated images and CSV files can be used for further analysis or reporting purposes. 
+
+Deployment was facilitated through Docker and Docker Compose, ensuring easy setup and execution of the system. A deployment script managed container configuration, executed Python scripts, performed Git operations, and ensured the system was up and running.  
+
+The project successfully accomplished its objectives, providing a functional data acquisition system. It effectively fetched, processed, and stored cryptocurrency market data, enabling users to access image and CSV URLs associated with the data. The automated deployment streamlined the setup process and ensured smooth execution.
+
+
+
+---
+# References :peach:
+---
+https://docs.streamlit.io/  
+https://github.com/matplotlib/mplfinance/tree/master/examples  
+https://github.com/jealous/stockstats  
+https://docs.sqlalchemy.org/en/20/
+https://www.coingecko.com/en/api/documentation  
+https://docs.docker.com/desktop/
